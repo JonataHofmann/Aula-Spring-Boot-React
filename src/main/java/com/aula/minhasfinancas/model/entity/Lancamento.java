@@ -27,15 +27,6 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "lancamento", schema = "financas")
 @Builder 
-/*
- * Cria um builder para a classe, e não eh necessario as anotations
- * @Setter
- * @Getter
- * @EqualsAndHashCode
- * @ToString
- * @NoArgsConstructor
- * @AllArgsConstructor
- */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
